@@ -34,6 +34,8 @@ At this point, it’s more like **PGP with attitude** than a finished messenger.
 
 ## Config Explained
 
+```
+
 # messages:
 # saves the senders private key, and receivers public key along with the encrypted message
 # (meaning that you can only save message you sent)
@@ -59,6 +61,8 @@ number_of_saved_keypairs = 10 # if storing_keypairs = False, then this number do
 
 storing_contacts = True # can be set to "False"
 number_of_saved_contacts = 10 # if storing_contacts = False, then this number dosent get used.
+
+```
 
 ## Structure (rough)
 
